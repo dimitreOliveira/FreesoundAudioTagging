@@ -1,7 +1,7 @@
-![](https://kaggle2.blob.core.windows.net/competitions/kaggle/8900/logos/header.png?t=2018-03-18-23-07-32)
+![](https://blog.freesound.org/wp-content/uploads/2017/12/updated_logo.png)
 
 # Freesound General-Purpose Audio Tagging Challenge
-###Can you automatically recognize sounds from a wide range of real-world environments?
+### Can you automatically recognize sounds from a wide range of real-world environments?
 
 link for the kaggle competition: https://www.kaggle.com/c/freesound-audio-tagging
 
