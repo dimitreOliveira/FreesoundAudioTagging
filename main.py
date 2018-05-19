@@ -2,8 +2,6 @@ import numpy as np
 import pandas as pd
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
-from model import model
-from methods import predict
 from dataset import load_data, pre_process_data, output_submission, extract_features, make_input_data
 import matplotlib.pyplot as plt
 
@@ -53,11 +51,4 @@ train_size = 0.8
 layers_dims = [input_layer, 500, 500, output_layer]
 
 
-# parameters, submission_name = model(X_train, Y_train, X_valid, Y_valid, layers_dims, num_epochs=num_epochs,
-#                                     learning_rate=learning_rate, print_cost=False, plot_cost=True, l2_beta=0.1,
-#                                     keep_prob=0.5, minibatch_size=0, return_best=True, print_accuracy=False,
-#                                     plot_accuracy=True)
-
 # print(submission_name)
-# final_prediction = predict(test_pre, parameters)
-# output_submission(test.index.values, final_prediction, 'PassengerId', 'Survived', submission_name)
