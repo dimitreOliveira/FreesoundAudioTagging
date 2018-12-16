@@ -1,9 +1,20 @@
 ![](https://blog.freesound.org/wp-content/uploads/2017/12/updated_logo.png)
 
 # Freesound General-Purpose Audio Tagging Challenge
+
+## About the repository
+The goal here is to practice with deep learning and sequenced data, in this case using RNNs and CNNs since audio can be converted into images (spectrograms), so big challenge here is to process the audio file and turn them into data that can be fed to a neural network, also work with audio (sequenced data) and images.
+
+### What you will find
+* Feature preprocessing and engineering. [[link]](https://github.com/dimitreOliveira/FreesoundAudioTagging/blob/master/dataset.py)
+* Process audio files and save as spectrograms. [[link]](https://github.com/dimitreOliveira/FreesoundAudioTagging/blob/master/dataset.py)
+* Model implementation and architecture. [[link]](https://github.com/dimitreOliveira/FreesoundAudioTagging/blob/master/model.py)
+* Model data generator. [[link]](https://github.com/dimitreOliveira/FreesoundAudioTagging/blob/master/methods.py)
+* Model training and prediction. [[link]](https://github.com/dimitreOliveira/FreesoundAudioTagging/blob/master/main.py)
+
 ### Can you automatically recognize sounds from a wide range of real-world environments?
 
-link for the kaggle competition: https://www.kaggle.com/c/freesound-audio-tagging
+link for the Kaggle competition: https://www.kaggle.com/c/freesound-audio-tagging
 
 
 ### Competition Description
@@ -18,3 +29,19 @@ Partly because of the vastness of sounds we experience, no reliable automatic ge
 To tackle this problem, Freesound (an initiative by MTG-UPF that maintains a collaborative database with over 370,000 Creative Commons Licensed sounds) and Google Research’s Machine Perception Team (creators of AudioSet, a large-scale dataset of manually annotated audio events with over 500 classes) have teamed up to develop the dataset for this competition.
 
 You’re challenged to build a general-purpose automatic audio tagging system using a dataset of audio files covering a wide range of real-world environments. Sounds in the dataset include things like musical instruments, human sounds, domestic sounds, and animals from Freesound’s library, annotated using a vocabulary of more than 40 labels from Google’s AudioSet ontology. To succeed in this competition your systems will need to be able to recognize an increased number of sound events of very diverse nature, and to leverage subsets of training data featuring annotations of varying reliability (see Data section for more information).
+
+### Dependencies:
+* [h5py](https://www.h5py.org/)
+* [tqdm](https://tqdm.github.io/)
+* [scipy](https://www.scipy.org/)
+* [keras](https://keras.io/)
+* [numpy](http://www.numpy.org/)
+* [pandas](http://pandas.pydata.org/)
+* [sklearn](https://scikit-learn.org/stable/)
+* [librosa](https://librosa.github.io/librosa/)
+* [tensorflow](https://www.tensorflow.org/)
+* [matplotlib](http://matplotlib.org/)
+
+### To-Do:
+* The feature extraction of this work needs an overall improvement.
+* Also I'm no very confident about the models using  spectrograms, they need to be revised.
