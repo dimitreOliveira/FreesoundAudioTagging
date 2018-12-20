@@ -31,16 +31,16 @@ To tackle this problem, Freesound (an initiative by MTG-UPF that maintains a col
 You’re challenged to build a general-purpose automatic audio tagging system using a dataset of audio files covering a wide range of real-world environments. Sounds in the dataset include things like musical instruments, human sounds, domestic sounds, and animals from Freesound’s library, annotated using a vocabulary of more than 40 labels from Google’s AudioSet ontology. To succeed in this competition your systems will need to be able to recognize an increased number of sound events of very diverse nature, and to leverage subsets of training data featuring annotations of varying reliability (see Data section for more information).
 
 ### Dependencies:
-* [h5py](https://www.h5py.org/)
-* [tqdm](https://tqdm.github.io/)
-* [scipy](https://www.scipy.org/)
-* [keras](https://keras.io/)
-* [numpy](http://www.numpy.org/)
-* [pandas](http://pandas.pydata.org/)
-* [sklearn](https://scikit-learn.org/stable/)
-* [librosa](https://librosa.github.io/librosa/)
-* [tensorflow](https://www.tensorflow.org/)
-* [matplotlib](http://matplotlib.org/)
+* [H5Py](https://www.h5py.org/)
+* [Tqdm](https://tqdm.github.io/)
+* [SciPy](https://www.scipy.org/)
+* [Keras](https://keras.io/)
+* [NumPy](http://www.numpy.org/)
+* [Pandas](http://pandas.pydata.org/)
+* [Sklearn](https://scikit-learn.org/stable/)
+* [Librosa](https://librosa.github.io/librosa/)
+* [Tensorflow](https://www.tensorflow.org/)
+* [Matplotlib](http://matplotlib.org/)
 
 ### To-Do:
 * The feature extraction of this work needs an overall improvement.
